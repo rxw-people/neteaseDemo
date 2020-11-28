@@ -1,0 +1,118 @@
+.search {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background: rgb(242, 243, 244);
+    overflow-y: auto;
+}
+
+.search-header {
+    line-height: 2rem;
+    background: rgb(212, 68, 57);
+}
+
+.search-header > span {
+    color: white;
+    font-size: 1.4rem;
+    margin-left: .5rem;
+    font-weight: 800;
+
+}
+.search-header > span:nth-child(3){
+    font-size: 1rem;
+    font-weight: 900;
+    position: fixed;
+    right: 1.2rem;
+    top: .5rem;
+}
+
+.search-header > input {
+    color: #ffffff;
+    width: 14rem;
+    margin-left: .5rem;
+    font-size: .8rem;
+    padding-left: .2rem;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: .05rem solid #f5f5f5;
+}
+
+.search-header > input::-webkit-input-placeholder {
+    color: white;
+}
+
+.search-header > input::-moz-placeholder {
+    color: white;
+}
+
+.search-header > input:-moz-placeholder {
+    color: white;
+}
+
+.search-header > input:-ms-input-placeholder {
+    color: white;
+}
+.search_main{
+    padding-left: 1rem;
+    overflow: hidden;
+}
+.search_main>p{
+    font-size: .7rem;
+    color: #bba8a8;
+    margin: 1.75rem  0 1rem 0;
+}
+.search_main>li{
+    float: left;
+    list-style: none;
+    font-size: .7rem;
+    padding: .25rem .5rem;
+    background-color: white;
+    margin: 0 1rem .5rem 0;
+    border-radius: .3rem;
+}
+.search-singers-singers{
+    padding-left: .4rem;
+}
+.search-singers-singers>p{
+    font-size: .6rem;
+    margin: .5rem 0  .4rem 0;
+}
+.search-singers-singers>li{
+    height: 3.15rem;
+    list-style: none;
+    border-bottom: .05rem solid rgb(228, 228, 228);
+}
+.search-singers-singers>li>img{
+    width: 2.5rem;
+    vertical-align: middle;
+    line-height: 3.15rem;
+}
+.search-singers-singers>li>span{
+    font-size: .7rem;
+    height: 3.15rem;
+    margin-left: 1rem;
+    line-height: 3.15rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.search-singers-song>li{
+    vertical-align: middle;
+    border-bottom: .05rem solid rgb(228, 228, 228);
+}
+.search-singers-song{
+    padding-left: 1rem;
+}
+.search-singers-song>li{
+    list-style: none;
+    padding: .5rem;
+}
+.search-singers-song>li>p{
+    font-size: .8rem;
+    margin-bottom: .3rem;
+}
+.search-singers-song>li>span{
+    color: #bba8a8;
+    font-size: .6rem;
+}

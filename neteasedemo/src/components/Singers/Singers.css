@@ -1,0 +1,60 @@
+.singers{
+    padding-top: .8rem;
+    padding-left: .2rem;
+}
+.singers-sort{
+    font-size: .7rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+.singers-sort>span:nth-child(1){
+    color: #808080;
+}
+.singers-sort>span{
+    margin-right: .4rem;
+}
+.singers-letter{
+    font-size: .7rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: .8rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+.singers-letter>span{
+    margin-right: .5rem;
+}
+.singers-letter>span:nth-child(1){
+    color: #808080;
+}
+.bor{
+    border: 1px solid red;
+    padding: .1rem .2rem;
+    border-radius: .6rem;
+}
+.der{
+    border: 1px solid red;
+    padding: .05rem .2rem;
+    border-radius: .6rem;
+}
+.singers-list>div{
+    height: 2.8rem;
+    padding: .3rem 0;
+    border-bottom: .05rem solid rgb(228, 228, 228);
+}
+.singers-list>div>a{
+    width: 100%;
+    display: inline-block;
+}
+.singers-list>div>a>img{
+    width: 2.5rem;
+    vertical-align: middle;
+}
+.singers-list>div>a>span{
+    font-size: .7rem;
+    color: #2e3030;
+    margin-left: 1rem;
+    vertical-align: middle;
+}

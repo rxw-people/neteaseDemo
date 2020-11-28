@@ -1,0 +1,125 @@
+.singersDetails {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    background-color: white;
+    overflow: auto;
+}
+.singersDetails-img{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+.singersDetails-header{
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .8rem;
+    overflow: hidden;
+}
+.singersDetails-header>span{
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+.singersDetails-header>img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.singersDetails-collect{
+    background-color: red;
+    font-size: .8rem;
+    padding: .6rem 1.7rem;
+    color: white;
+    border-radius: 1rem;
+    position: absolute;
+    top: 12rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.singersDetails-collect>span{
+    margin-right: .5rem;
+}
+.singersDetails-list{
+    margin-top: 14.5rem;
+    background-color: white;
+    border-top-right-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+.singersDetails-list>div{
+    height: 2rem;
+    line-height: 2rem;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding: 0 0 0 .5rem;
+}
+.singersDetails-list>div>span:nth-child(2){
+    margin: 0 .3rem 0 .5rem;
+    font-size: .8rem;
+}
+.singersDetails-list>div>span:nth-child(3){
+    font-size: .6rem;
+    color: #bba8a8;
+}
+.singersDetails-list>li{
+    overflow: hidden;
+}
+.singersDetails-list>li>p{
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    float: left;
+    font-size: .8rem;
+}
+.singersDetails-list>li>div{
+    margin-left: 3rem;
+    padding: .75rem 0 .25rem 0;
+    height: 2rem;
+    font-size: .8rem;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.singersDetails-list>li>div>p:nth-child(2){
+    color: #bba8a8;
+    font-size: .6rem;
+    margin-top: .3rem;
+}
+
+
+.listDetail-enter {
+    transform: rotateZ(90deg);
+    transform-origin: right bottom;
+}
+
+.listDetail-enter-active {
+    transform: rotateZ(0deg);
+    transform-origin: right bottom;
+    transition: all .5s;
+}
+
+.listDetail-enter-done {
+    transform: rotateZ(0deg);
+    transform-origin: right bottom;
+}
+
+.listDetail-exit {
+    transform: rotateZ(0deg);
+    transform-origin: right bottom;
+}
+
+.listDetail-exit-active {
+    transform: rotateZ(90deg);
+    transform-origin: right bottom;
+    transition: all .5s;
+}
+
+.listDetail-exit-done {
+    transform: rotateZ(90deg);
+    transform-origin: right bottom;
+}

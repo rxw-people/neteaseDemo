@@ -1,0 +1,74 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgba(0,0,0,0);
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: .3rem .3rem 0 .3rem;
+    box-sizing: border-box;
+}
+.swiper-slide>img{
+    width: 100%;
+    height: 8rem;
+    border-radius: .5rem;
+}
+.recommend-chart>div:nth-child(1){
+    height: 5rem;
+    position: absolute;
+    z-index: -1;
+    background-color: red;
+    width: 100%;
+}
+.recommend-songList>ul{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.recommend-song{
+    height: 3rem;
+    line-height: 3rem;
+    padding-left: .3rem;
+    font-size: .7rem;
+}
+.recommend-songList-list{
+    position: relative;
+    width: 32%;
+    margin-bottom: .2rem;
+    list-style: none;
+}
+.recommend-songList-list>a{
+    display: inline-block;
+}
+.recommend-songList-list>a>img{
+    width: 6rem;
+}
+.recommend-songList-list>a>p{
+    font-size: .6rem;
+    color: #2e3030;
+}
+.recommend-songList-list>a>span{
+    position: absolute;
+    right: .2rem;
+    top: .2rem;
+    color: white;
+    font-size: .6rem;
+}

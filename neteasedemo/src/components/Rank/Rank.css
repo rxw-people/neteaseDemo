@@ -1,0 +1,70 @@
+.rank-officialRank,.rank-officialList{
+    padding: .75rem 0 .75rem .3rem;
+}
+.rank-officialRank>div{
+    overflow: hidden;
+    padding: .1rem 0;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.rank-officialRank>div>a{
+    display: inline-block;
+}
+.rank-officialRank>p{
+    font-size: .7rem;
+    padding-bottom: .75rem;
+    font-weight: 700;
+}
+.rank-p{
+    font-size: .7rem;
+    font-weight: 700;
+    padding-left: .3rem;
+}
+.rank-officialRank-left{
+    position: relative;
+    float: left;
+}
+.rank-officialRank-left>img{
+    width: 5rem;
+    border-radius: .2rem;
+}
+.rank-officialRank-left>span{
+    color: #f1f1f1;
+    font-size: .6rem;
+    position: absolute;
+    left: .2rem;
+    bottom: .4rem;
+}
+.rank-officialRank-right{
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+.rank-officialRank-right>li{
+    font-size: .6rem;
+    color: #808080;
+    max-width: 12rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+.rank-officialList>li{
+    margin: .2rem .05rem;
+    float: left;
+    position: relative;
+    list-style: none;
+}
+.rank-officialList>li>a{
+    display: inline-block;
+}
+.rank-officialList>li>a>img{
+    width: 6rem;
+    border-radius: .2rem;
+}
+.rank-officialList>li>a>span{
+    color: #f1f1f1;
+    font-size: .6rem;
+    position: absolute;
+    left: .2rem;
+    bottom: .4rem;
+}
